@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4AEB247-DDF2-41DF-8E5E-ED113B0C3AFB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>NCRC</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9EB388CF7084D5CFAE127F9AAD1E2D522F01329A</key>
+		<string>https://github.com/kraftp/NCRC_APP_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>NCRC.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9EB388CF7084D5CFAE127F9AAD1E2D522F01329A</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/kraftp/NCRC_APP_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9EB388CF7084D5CFAE127F9AAD1E2D522F01329A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9EB388CF7084D5CFAE127F9AAD1E2D522F01329A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iosNCRC</string>
+		</dict>
+	</array>
+</dict>
+</plist>

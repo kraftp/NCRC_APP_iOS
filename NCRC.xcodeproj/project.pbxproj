@@ -14,6 +14,7 @@
 		391FDFA319E352C600C5FD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391FDFA219E352C600C5FD18 /* Images.xcassets */; };
 		391FDFA619E352C600C5FD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 391FDFA419E352C600C5FD18 /* LaunchScreen.xib */; };
 		391FDFB219E352C600C5FD18 /* NCRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391FDFB119E352C600C5FD18 /* NCRCTests.m */; };
+		D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */; };
 		D04A5AC81A26F57000D12FAB /* NewTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AC71A26F57000D12FAB /* NewTextView.m */; };
 		D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AD01A28402900D12FAB /* keynote_1_webview.m */; };
 		D0763DD71A26C9170015064B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0763DD61A26C9170015064B /* TableViewController.m */; };
@@ -103,6 +104,8 @@
 		391FDFAB19E352C600C5FD18 /* NCRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCRCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		391FDFB019E352C600C5FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391FDFB119E352C600C5FD18 /* NCRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCRCTests.m; sourceTree = "<group>"; };
+		D02B5C6A1A28EB4800F00C85 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
+		D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
 		D04A5AC61A26F57000D12FAB /* NewTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTextView.h; sourceTree = "<group>"; };
 		D04A5AC71A26F57000D12FAB /* NewTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTextView.m; sourceTree = "<group>"; };
 		D04A5ACF1A28402900D12FAB /* keynote_1_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_1_webview.h; sourceTree = "<group>"; };
@@ -217,6 +220,8 @@
 				D0763DD51A26C9170015064B /* TableViewController.h */,
 				D0763DD61A26C9170015064B /* TableViewController.m */,
 				391FDF9F19E352C600C5FD18 /* Main.storyboard */,
+				D02B5C6A1A28EB4800F00C85 /* ContactsTableViewController.h */,
+				D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */,
 				D04A5ACF1A28402900D12FAB /* keynote_1_webview.h */,
 				D04A5AD01A28402900D12FAB /* keynote_1_webview.m */,
 				D04A5AC61A26F57000D12FAB /* NewTextView.h */,
@@ -507,6 +512,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				391FDF9E19E352C600C5FD18 /* ViewController.m in Sources */,
+				D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */,
 				D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */,
 				D04A5AC81A26F57000D12FAB /* NewTextView.m in Sources */,
 				391FDF9B19E352C600C5FD18 /* AppDelegate.m in Sources */,
