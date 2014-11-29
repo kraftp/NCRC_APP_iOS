@@ -15,7 +15,6 @@
 		391FDFA619E352C600C5FD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 391FDFA419E352C600C5FD18 /* LaunchScreen.xib */; };
 		391FDFB219E352C600C5FD18 /* NCRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391FDFB119E352C600C5FD18 /* NCRCTests.m */; };
 		D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */; };
-		D04A5AC81A26F57000D12FAB /* NewTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AC71A26F57000D12FAB /* NewTextView.m */; };
 		D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AD01A28402900D12FAB /* keynote_1_webview.m */; };
 		D04F8A4B1A297A970088795F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04F8A4A1A297A970088795F /* MapKit.framework */; };
 		D04F8A4E1A297BD50088795F /* NCRCMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D04F8A4D1A297BD50088795F /* NCRCMap.m */; };
@@ -108,8 +107,6 @@
 		391FDFB119E352C600C5FD18 /* NCRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCRCTests.m; sourceTree = "<group>"; };
 		D02B5C6A1A28EB4800F00C85 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
 		D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
-		D04A5AC61A26F57000D12FAB /* NewTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewTextView.h; sourceTree = "<group>"; };
-		D04A5AC71A26F57000D12FAB /* NewTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewTextView.m; sourceTree = "<group>"; };
 		D04A5ACF1A28402900D12FAB /* keynote_1_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_1_webview.h; sourceTree = "<group>"; };
 		D04A5AD01A28402900D12FAB /* keynote_1_webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keynote_1_webview.m; sourceTree = "<group>"; };
 		D04F8A4A1A297A970088795F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
@@ -233,8 +230,6 @@
 				D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */,
 				D04A5ACF1A28402900D12FAB /* keynote_1_webview.h */,
 				D04A5AD01A28402900D12FAB /* keynote_1_webview.m */,
-				D04A5AC61A26F57000D12FAB /* NewTextView.h */,
-				D04A5AC71A26F57000D12FAB /* NewTextView.m */,
 				D07C889C1A07542600C5AAE1 /* Images */,
 				D07C88771A07537200C5AAE1 /* Images */,
 				D07C885A1A074FB600C5AAE1 /* Images */,
@@ -524,7 +519,6 @@
 				391FDF9E19E352C600C5FD18 /* ViewController.m in Sources */,
 				D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */,
 				D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */,
-				D04A5AC81A26F57000D12FAB /* NewTextView.m in Sources */,
 				391FDF9B19E352C600C5FD18 /* AppDelegate.m in Sources */,
 				391FDF9819E352C600C5FD18 /* main.m in Sources */,
 				D0763DD71A26C9170015064B /* TableViewController.m in Sources */,

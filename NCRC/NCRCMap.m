@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.navigationController.navigationBar.hidden = NO;
     CLLocationCoordinate2D noLocation = {42.379543, -71.115512};
     CLLocationCoordinate2D nwloc = {42.379884, -71.115513};
     CLLocationCoordinate2D qhloc = {42.376032, -71.115545};
@@ -39,6 +40,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+-(void) viewWillDisappear:(BOOL)animated {
+    if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
+        self.navigationController.navigationBar.hidden = YES;
+        // back button was pressed.  We know this is true because self is no longer
+        // in the navigation stack.
+    }
+    [super viewWillDisappear:animated];
+}
 /*
 #pragma mark - Navigation
 
