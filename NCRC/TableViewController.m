@@ -17,11 +17,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden = NO;
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.view removeConstraints:self.view.constraints];
+    [self.tableView removeConstraints:self.tableView.constraints];
+    self.tableView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
+    self.tableView.translatesAutoresizingMaskIntoConstraints = YES;
+    CGRect frame = self.tableView.frame;
+    frame.size.height = 2000;
+    self.view.frame = frame;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,8 +43,28 @@
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
     if (section == 0)
-        return 3;
+        return 11;
+    if (section == 1)
+        return 4;
     return 3;
+}
+/*- (void)viewDidAppear:(BOOL)animated
+{
+    [self.tableView setFrame:CGRectMake(0, 0, 400, 2000)];
+}*/
+
+-(void) viewDidAppear:(BOOL)animated {
+    //[self.benchmarkButton removeFromSuperview];
+    [self.tableView setTranslatesAutoresizingMaskIntoConstraints:YES];
+   // [self.benchmarkButton setFrame:CGRectMake(20, self.benchmarkButton.frame.origin.y+40, 260, 30)];
+    //[self.benchmarksView addSubview:self.benchmarkButton];
+    [super viewDidAppear:animated];
+    CGRect frame = self.tableView.frame;
+    frame.size.height = 2000;
+    self.view.frame = frame;
+    //[_viewtable setFrame:CGRectMake(0, 0, 400, 2000)];
+   // [_viewtable reloadData];
+    //_viewtable.frame = CGRectMake(0,0,self.view.frame.size.width,0);
 }
 
 -(void) viewWillDisappear:(BOOL)animated {
