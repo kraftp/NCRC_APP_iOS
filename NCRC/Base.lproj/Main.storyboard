@@ -1489,12 +1489,6 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     </variation>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWq-Ka-4eh">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <state key="normal" title="Details">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                </button>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="10:00-11:00  Keynote:  Szostak" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHq-i4-Th8">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1503,6 +1497,15 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     </variation>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cWq-Ka-4eh">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Details">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="gFA-Pm-l0H" kind="push" id="2vV-DT-Xra"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="j1T-LY-vN7" firstAttribute="leading" secondItem="haV-6F-gpy" secondAttribute="leadingMargin" constant="7" id="S82-1X-5TH"/>
@@ -1515,8 +1518,8 @@
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="j1T-LY-vN7"/>
-                                                    <exclude reference="cWq-Ka-4eh"/>
                                                     <exclude reference="hHq-i4-Th8"/>
+                                                    <exclude reference="cWq-Ka-4eh"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="ajQ-Xo-cDP"/>
@@ -1530,8 +1533,8 @@
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="j1T-LY-vN7"/>
-                                                    <include reference="cWq-Ka-4eh"/>
                                                     <include reference="hHq-i4-Th8"/>
+                                                    <include reference="cWq-Ka-4eh"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="ajQ-Xo-cDP"/>
@@ -1739,12 +1742,6 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     </variation>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyS-AH-lNV">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <state key="normal" title="Details">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                </button>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="7:30-8:30   Closing:  Pfister" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rd6-bO-mdh">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -1753,6 +1750,15 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     </variation>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyS-AH-lNV">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Details">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="vrS-vt-mMP" kind="push" id="gPr-6q-2PX"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="dyS-AH-lNV" firstAttribute="trailing" secondItem="HcF-C0-T98" secondAttribute="trailingMargin" id="5h7-fx-QQw"/>
@@ -1765,8 +1771,8 @@
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="Y0o-Qz-sSS"/>
-                                                    <exclude reference="dyS-AH-lNV"/>
                                                     <exclude reference="rd6-bO-mdh"/>
+                                                    <exclude reference="dyS-AH-lNV"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="TTr-xq-Qfd"/>
@@ -1780,8 +1786,8 @@
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="Y0o-Qz-sSS"/>
-                                                    <include reference="dyS-AH-lNV"/>
                                                     <include reference="rd6-bO-mdh"/>
+                                                    <include reference="dyS-AH-lNV"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="TTr-xq-Qfd"/>
@@ -2035,6 +2041,88 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abG-Cu-JYF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1999.5" y="642"/>
+        </scene>
+        <!--Jack Szostak-->
+        <scene sceneID="Pps-lV-ChH">
+            <objects>
+                <viewController id="gFA-Pm-l0H" customClass="keynote_5_webview" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yft-yD-i0v"/>
+                        <viewControllerLayoutGuide type="bottom" id="QGo-PA-EEE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Khy-ap-UU3">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EQw-I5-pJV">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="600"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="EQw-I5-pJV"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="EQw-I5-pJV"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Jack Szostak" id="ZRD-KO-GEK"/>
+                    <connections>
+                        <outlet property="viewWeb" destination="EQw-I5-pJV" id="dQ4-VC-wBB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EZw-t6-vHP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2646" y="661"/>
+        </scene>
+        <!--Donald Pfister-->
+        <scene sceneID="HhR-L0-q1I">
+            <objects>
+                <viewController id="vrS-vt-mMP" customClass="keynote_6_webview" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="deg-w8-Jy1"/>
+                        <viewControllerLayoutGuide type="bottom" id="jZG-AR-y2f"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RsG-jZ-Fr7">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1ev-uE-vYc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="600"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1ev-uE-vYc"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1ev-uE-vYc"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Donald Pfister" id="Wdn-Ij-yAT"/>
+                    <connections>
+                        <outlet property="viewWeb" destination="1ev-uE-vYc" id="YY0-VJ-Kxm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AW3-FD-2RA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3270" y="661"/>
         </scene>
     </scenes>
     <resources>
