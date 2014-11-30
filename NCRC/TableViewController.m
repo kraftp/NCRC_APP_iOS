@@ -17,13 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationController.navigationBar.hidden = NO;
-    /*[self.view removeConstraints:self.view.constraints];
-    [self.tableView removeConstraints:self.tableView.constraints];
-    self.tableView.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleRightMargin | UIViewAutoresizingFlexibleBottomMargin;
-    self.tableView.translatesAutoresizingMaskIntoConstraints = YES;
-    CGRect frame = self.tableView.frame;
-    frame.size.height = 2000;
-    self.view.frame = frame;*/
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,13 +27,11 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-//warning Potentially incomplete method implementation.
     // Return the number of sections.
     return 3;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-//#warning Incomplete method implementation.
     // Return the number of rows in the section.
     if (section == 0)
         return 11;
@@ -48,24 +39,6 @@
         return 14;
     return 10;
 }
-/*- (void)viewDidAppear:(BOOL)animated
-{
-    [self.tableView setFrame:CGRectMake(0, 0, 400, 2000)];
-}*/
-
-/*-(void) viewDidAppear:(BOOL)animated {
-    //[self.benchmarkButton removeFromSuperview];
-    [self.tableView setTranslatesAutoresizingMaskIntoConstraints:YES];
-   // [self.benchmarkButton setFrame:CGRectMake(20, self.benchmarkButton.frame.origin.y+40, 260, 30)];
-    //[self.benchmarksView addSubview:self.benchmarkButton];
-    [super viewDidAppear:animated];
-    CGRect frame = self.tableView.frame;
-    frame.size.height = 2000;
-    self.view.frame = frame;
-    //[_viewtable setFrame:CGRectMake(0, 0, 400, 2000)];
-   // [_viewtable reloadData];
-    //_viewtable.frame = CGRectMake(0,0,self.view.frame.size.width,0);
-}*/
 
 -(void) viewWillDisappear:(BOOL)animated {
     if ([self.navigationController.viewControllers indexOfObject:self]==NSNotFound) {
@@ -75,10 +48,6 @@
     }
     [super viewWillDisappear:animated];
 }
-/*- (void) prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-        self.navigationController.navigationBar.hidden = YES;
-}*/
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

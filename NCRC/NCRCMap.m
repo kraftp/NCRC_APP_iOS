@@ -25,11 +25,11 @@
     [_viewmap setRegion:adjustedRegion animated:YES];
     MKPointAnnotation *nwannot = [[MKPointAnnotation alloc] init];
     [nwannot setCoordinate:nwloc];
-    [nwannot setTitle:@"Northwest Labs"]; //You can set the subtitle too
+    [nwannot setTitle:@"Northwest Labs"];
     [_viewmap addAnnotation:nwannot];
     MKPointAnnotation *qhannot = [[MKPointAnnotation alloc] init];
     [qhannot setCoordinate:qhloc];
-    [qhannot setTitle:@"Queen's Head Pub"]; //You can set the subtitle too
+    [qhannot setTitle:@"Queen's Head Pub"];
     [_viewmap addAnnotation:qhannot];
     //_viewmap.showsUserLocation = YES;
     // Do any additional setup after loading the view.
