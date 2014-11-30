@@ -14,6 +14,7 @@
 		391FDFA319E352C600C5FD18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 391FDFA219E352C600C5FD18 /* Images.xcassets */; };
 		391FDFA619E352C600C5FD18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 391FDFA419E352C600C5FD18 /* LaunchScreen.xib */; };
 		391FDFB219E352C600C5FD18 /* NCRCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 391FDFB119E352C600C5FD18 /* NCRCTests.m */; };
+		D00E5CFA1A2AC972006A3FDE /* inno_challenge.m in Sources */ = {isa = PBXBuildFile; fileRef = D00E5CF91A2AC972006A3FDE /* inno_challenge.m */; };
 		D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */; };
 		D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AD01A28402900D12FAB /* keynote_1_webview.m */; };
 		D04F8A4B1A297A970088795F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D04F8A4A1A297A970088795F /* MapKit.framework */; };
@@ -105,6 +106,8 @@
 		391FDFAB19E352C600C5FD18 /* NCRCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NCRCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		391FDFB019E352C600C5FD18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		391FDFB119E352C600C5FD18 /* NCRCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NCRCTests.m; sourceTree = "<group>"; };
+		D00E5CF81A2AC972006A3FDE /* inno_challenge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inno_challenge.h; sourceTree = "<group>"; };
+		D00E5CF91A2AC972006A3FDE /* inno_challenge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inno_challenge.m; sourceTree = "<group>"; };
 		D02B5C6A1A28EB4800F00C85 /* ContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsTableViewController.h; sourceTree = "<group>"; };
 		D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsTableViewController.m; sourceTree = "<group>"; };
 		D04A5ACF1A28402900D12FAB /* keynote_1_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_1_webview.h; sourceTree = "<group>"; };
@@ -224,6 +227,8 @@
 				D0763DD51A26C9170015064B /* TableViewController.h */,
 				D0763DD61A26C9170015064B /* TableViewController.m */,
 				391FDF9F19E352C600C5FD18 /* Main.storyboard */,
+				D00E5CF81A2AC972006A3FDE /* inno_challenge.h */,
+				D00E5CF91A2AC972006A3FDE /* inno_challenge.m */,
 				D04F8A4C1A297BD50088795F /* NCRCMap.h */,
 				D04F8A4D1A297BD50088795F /* NCRCMap.m */,
 				D02B5C6A1A28EB4800F00C85 /* ContactsTableViewController.h */,
@@ -516,6 +521,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D04F8A4E1A297BD50088795F /* NCRCMap.m in Sources */,
+				D00E5CFA1A2AC972006A3FDE /* inno_challenge.m in Sources */,
 				391FDF9E19E352C600C5FD18 /* ViewController.m in Sources */,
 				D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */,
 				D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */,
