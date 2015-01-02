@@ -134,17 +134,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnJ-WA-ow3">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title=" Contacts" image="user-4.png">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="xin-fb-1ge" kind="push" id="yVF-Nz-yoE"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VpB-vv-eyE">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -164,7 +153,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="00e-ap-fvv" kind="push" id="G9w-kW-YKZ"/>
+                                    <segue destination="00e-ap-fvv" kind="show" id="8DY-7s-NAT"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Im0-dl-PzL">
@@ -175,12 +164,23 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="zJu-zQ-a62" kind="push" id="SqT-mR-cdq"/>
+                                    <segue destination="zJu-zQ-a62" kind="show" id="Jy8-Ys-XVD"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="banner.png" translatesAutoresizingMaskIntoConstraints="NO" id="L7j-wh-0A2">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SnJ-WA-ow3">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title=" Contacts" image="user-4.png">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="xin-fb-1ge" kind="show" id="A2n-1w-JOa"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -204,46 +204,46 @@
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="SnJ-WA-ow3"/>
                                 <exclude reference="VpB-vv-eyE"/>
                                 <exclude reference="UuH-R0-ClA"/>
                                 <exclude reference="Im0-dl-PzL"/>
                                 <exclude reference="L7j-wh-0A2"/>
+                                <exclude reference="SnJ-WA-ow3"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="HTm-ci-S0N"/>
-                                <exclude reference="g85-fL-pHZ"/>
-                                <exclude reference="kUi-WO-gl4"/>
-                                <exclude reference="8rT-F5-6zd"/>
-                                <exclude reference="bSv-FQ-Rz1"/>
-                                <exclude reference="JQL-T3-X24"/>
-                                <exclude reference="QK3-Ga-qpz"/>
                                 <exclude reference="SCs-c8-fVW"/>
                                 <exclude reference="WOu-ox-pq0"/>
                                 <exclude reference="ndd-ON-mql"/>
+                                <exclude reference="JQL-T3-X24"/>
+                                <exclude reference="QK3-Ga-qpz"/>
                                 <exclude reference="RgG-tr-NVK"/>
+                                <exclude reference="8rT-F5-6zd"/>
+                                <exclude reference="bSv-FQ-Rz1"/>
+                                <exclude reference="HTm-ci-S0N"/>
+                                <exclude reference="g85-fL-pHZ"/>
+                                <exclude reference="kUi-WO-gl4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="SnJ-WA-ow3"/>
                                 <include reference="VpB-vv-eyE"/>
                                 <include reference="UuH-R0-ClA"/>
                                 <include reference="Im0-dl-PzL"/>
                                 <include reference="L7j-wh-0A2"/>
+                                <include reference="SnJ-WA-ow3"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="HTm-ci-S0N"/>
-                                <include reference="g85-fL-pHZ"/>
-                                <include reference="kUi-WO-gl4"/>
-                                <include reference="8rT-F5-6zd"/>
-                                <include reference="bSv-FQ-Rz1"/>
-                                <include reference="JQL-T3-X24"/>
-                                <include reference="QK3-Ga-qpz"/>
                                 <include reference="SCs-c8-fVW"/>
                                 <include reference="WOu-ox-pq0"/>
                                 <include reference="ndd-ON-mql"/>
+                                <include reference="JQL-T3-X24"/>
+                                <include reference="QK3-Ga-qpz"/>
                                 <include reference="RgG-tr-NVK"/>
+                                <include reference="8rT-F5-6zd"/>
+                                <include reference="bSv-FQ-Rz1"/>
+                                <include reference="HTm-ci-S0N"/>
+                                <include reference="g85-fL-pHZ"/>
+                                <include reference="kUi-WO-gl4"/>
                             </mask>
                         </variation>
                     </view>
@@ -335,7 +335,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="vka-fZ-nKM" kind="push" id="0j3-c2-3QO"/>
+                                                        <segue destination="vka-fZ-nKM" kind="show" id="XgT-oD-25E"/>
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="10:00-11:00  Welcome:  McNutt" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y5x-Em-CKe">
@@ -414,7 +414,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="0f7-RM-uxJ" kind="push" id="iiL-H0-Ljx"/>
+                                                        <segue destination="0f7-RM-uxJ" kind="show" id="ySw-ul-vnk"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -511,7 +511,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="czy-Je-yuR" kind="push" id="WWR-m0-wPI"/>
+                                                        <segue destination="czy-Je-yuR" kind="show" id="QTW-ik-Xpu"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -812,15 +812,6 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     </variation>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9r5-c9-ufq">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <state key="normal" title="Details">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <segue destination="doa-De-KfB" kind="push" id="TRb-VC-udm"/>
-                                                    </connections>
-                                                </button>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="10:00-11:00  Keynote:  Grandin" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OY3-fw-WSL">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -829,6 +820,15 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     </variation>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9r5-c9-ufq">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Details">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="doa-De-KfB" kind="show" id="O9q-zg-gfk"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="OY3-fw-WSL" firstAttribute="top" secondItem="EIh-sY-GFI" secondAttribute="topMargin" constant="-3" id="NtA-Xs-g2K"/>
@@ -841,8 +841,8 @@
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="p7T-Zi-fr3"/>
-                                                    <exclude reference="9r5-c9-ufq"/>
                                                     <exclude reference="OY3-fw-WSL"/>
+                                                    <exclude reference="9r5-c9-ufq"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="NtA-Xs-g2K"/>
@@ -856,8 +856,8 @@
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="p7T-Zi-fr3"/>
-                                                    <include reference="9r5-c9-ufq"/>
                                                     <include reference="OY3-fw-WSL"/>
+                                                    <include reference="9r5-c9-ufq"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="NtA-Xs-g2K"/>
@@ -1111,7 +1111,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="0f7-RM-uxJ" kind="push" id="iry-cz-LpO"/>
+                                                        <segue destination="0f7-RM-uxJ" kind="show" id="fLS-el-kzp"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1208,7 +1208,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="4eF-hM-5P8" kind="push" id="sCP-b0-ZQI"/>
+                                                        <segue destination="4eF-hM-5P8" kind="show" id="ox6-sX-OTB"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1279,7 +1279,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="0f7-RM-uxJ" kind="push" id="f6c-yv-WUm"/>
+                                                        <segue destination="0f7-RM-uxJ" kind="show" id="2dN-kD-NTU"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1350,7 +1350,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="0f7-RM-uxJ" kind="push" id="HNS-cs-bGO"/>
+                                                        <segue destination="0f7-RM-uxJ" kind="show" id="wv7-jd-iEo"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1503,7 +1503,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="gFA-Pm-l0H" kind="push" id="2vV-DT-Xra"/>
+                                                        <segue destination="gFA-Pm-l0H" kind="show" id="Mfb-8V-PUP"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1756,7 +1756,7 @@
                                                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                     </state>
                                                     <connections>
-                                                        <segue destination="vrS-vt-mMP" kind="push" id="gPr-6q-2PX"/>
+                                                        <segue destination="vrS-vt-mMP" kind="show" id="oO7-rt-yze"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -2133,6 +2133,6 @@
         <image name="user-4.png" width="64" height="64"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="iiL-H0-Ljx"/>
+        <segue reference="ySw-ul-vnk"/>
     </inferredMetricsTieBreakers>
 </document>
