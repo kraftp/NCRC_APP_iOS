@@ -18,6 +18,8 @@
 		D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */; };
 		D02E81921A2AE92300B20C6B /* keynote_5_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E81911A2AE92300B20C6B /* keynote_5_webview.m */; };
 		D02E81951A2AEAB900B20C6B /* keynote_6_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E81941A2AEAB900B20C6B /* keynote_6_webview.m */; };
+		D03DCD161A565B2A001D058E /* panels_workshops_1.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DCD151A565B2A001D058E /* panels_workshops_1.m */; };
+		D03DCD191A565E25001D058E /* panels_workshops_2.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DCD181A565E25001D058E /* panels_workshops_2.m */; };
 		D041A5491A2AE61C00DC1A57 /* keynote_3_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A5481A2AE61C00DC1A57 /* keynote_3_webview.m */; };
 		D041A54C1A2AE7B400DC1A57 /* keynote_4_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D041A54B1A2AE7B400DC1A57 /* keynote_4_webview.m */; };
 		D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */ = {isa = PBXBuildFile; fileRef = D04A5AD01A28402900D12FAB /* keynote_1_webview.m */; };
@@ -77,6 +79,10 @@
 		D02E81911A2AE92300B20C6B /* keynote_5_webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keynote_5_webview.m; sourceTree = "<group>"; };
 		D02E81931A2AEAB900B20C6B /* keynote_6_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_6_webview.h; sourceTree = "<group>"; };
 		D02E81941A2AEAB900B20C6B /* keynote_6_webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keynote_6_webview.m; sourceTree = "<group>"; };
+		D03DCD141A565B2A001D058E /* panels_workshops_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = panels_workshops_1.h; path = ../panels_workshops_1.h; sourceTree = "<group>"; };
+		D03DCD151A565B2A001D058E /* panels_workshops_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = panels_workshops_1.m; path = ../panels_workshops_1.m; sourceTree = "<group>"; };
+		D03DCD171A565E25001D058E /* panels_workshops_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = panels_workshops_2.h; sourceTree = "<group>"; };
+		D03DCD181A565E25001D058E /* panels_workshops_2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = panels_workshops_2.m; sourceTree = "<group>"; };
 		D041A5471A2AE61C00DC1A57 /* keynote_3_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_3_webview.h; sourceTree = "<group>"; };
 		D041A5481A2AE61C00DC1A57 /* keynote_3_webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keynote_3_webview.m; sourceTree = "<group>"; };
 		D041A54A1A2AE7B400DC1A57 /* keynote_4_webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keynote_4_webview.h; sourceTree = "<group>"; };
@@ -193,6 +199,8 @@
 		391FDF9419E352C600C5FD18 /* NCRC */ = {
 			isa = PBXGroup;
 			children = (
+				D03DCD141A565B2A001D058E /* panels_workshops_1.h */,
+				D03DCD151A565B2A001D058E /* panels_workshops_1.m */,
 				391FDF9919E352C600C5FD18 /* AppDelegate.h */,
 				391FDF9A19E352C600C5FD18 /* AppDelegate.m */,
 				391FDF9C19E352C600C5FD18 /* ViewController.h */,
@@ -200,6 +208,8 @@
 				D0763DD51A26C9170015064B /* TableViewController.h */,
 				D0763DD61A26C9170015064B /* TableViewController.m */,
 				391FDF9F19E352C600C5FD18 /* Main.storyboard */,
+				D03DCD171A565E25001D058E /* panels_workshops_2.h */,
+				D03DCD181A565E25001D058E /* panels_workshops_2.m */,
 				D02E81931A2AEAB900B20C6B /* keynote_6_webview.h */,
 				D02E81941A2AEAB900B20C6B /* keynote_6_webview.m */,
 				D02E81901A2AE92300B20C6B /* keynote_5_webview.h */,
@@ -464,10 +474,12 @@
 				D04F8A4E1A297BD50088795F /* NCRCMap.m in Sources */,
 				D00E5CFA1A2AC972006A3FDE /* inno_challenge.m in Sources */,
 				391FDF9E19E352C600C5FD18 /* ViewController.m in Sources */,
+				D03DCD161A565B2A001D058E /* panels_workshops_1.m in Sources */,
 				D041A54C1A2AE7B400DC1A57 /* keynote_4_webview.m in Sources */,
 				D041A5491A2AE61C00DC1A57 /* keynote_3_webview.m in Sources */,
 				D0563B5E1A2AD0F200C250DD /* keynote_2_webview.m in Sources */,
 				D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */,
+				D03DCD191A565E25001D058E /* panels_workshops_2.m in Sources */,
 				D04A5AD11A28402900D12FAB /* keynote_1_webview.m in Sources */,
 				D02E81951A2AEAB900B20C6B /* keynote_6_webview.m in Sources */,
 				391FDF9B19E352C600C5FD18 /* AppDelegate.m in Sources */,
