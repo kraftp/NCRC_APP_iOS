@@ -484,77 +484,6 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Dgn-Mb-xZJ">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Dgn-Mb-xZJ" id="rRm-58-ZyF">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Northwest Labs Atrium" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jGp-4o-85z">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    </variation>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1:30-2:30     Keynote:  Meselson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yhc-GK-29h">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fqf-HZ-TtM">
-                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                                    <state key="normal" title="Details">
-                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                                    </state>
-                                                    <connections>
-                                                        <segue destination="czy-Je-yuR" kind="show" id="QTW-ik-Xpu"/>
-                                                    </connections>
-                                                </button>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="jGp-4o-85z" firstAttribute="leading" secondItem="rRm-58-ZyF" secondAttribute="leadingMargin" constant="7" id="ElN-1F-QN1"/>
-                                                <constraint firstItem="Yhc-GK-29h" firstAttribute="top" secondItem="rRm-58-ZyF" secondAttribute="topMargin" constant="-3" id="Jmp-s2-qc8"/>
-                                                <constraint firstItem="fqf-HZ-TtM" firstAttribute="trailing" secondItem="rRm-58-ZyF" secondAttribute="trailingMargin" id="LyT-r9-N4Z"/>
-                                                <constraint firstItem="Yhc-GK-29h" firstAttribute="leading" secondItem="rRm-58-ZyF" secondAttribute="leadingMargin" id="VAn-n0-6rP"/>
-                                                <constraint firstAttribute="centerY" secondItem="fqf-HZ-TtM" secondAttribute="centerY" constant="1.5" id="thA-o9-SLu"/>
-                                                <constraint firstItem="jGp-4o-85z" firstAttribute="top" secondItem="Yhc-GK-29h" secondAttribute="top" constant="24" id="vFQ-sE-whP"/>
-                                            </constraints>
-                                            <variation key="default">
-                                                <mask key="subviews">
-                                                    <exclude reference="jGp-4o-85z"/>
-                                                    <exclude reference="Yhc-GK-29h"/>
-                                                    <exclude reference="fqf-HZ-TtM"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <exclude reference="Jmp-s2-qc8"/>
-                                                    <exclude reference="VAn-n0-6rP"/>
-                                                    <exclude reference="ElN-1F-QN1"/>
-                                                    <exclude reference="vFQ-sE-whP"/>
-                                                    <exclude reference="LyT-r9-N4Z"/>
-                                                    <exclude reference="thA-o9-SLu"/>
-                                                </mask>
-                                            </variation>
-                                            <variation key="widthClass=compact">
-                                                <mask key="subviews">
-                                                    <include reference="jGp-4o-85z"/>
-                                                    <include reference="Yhc-GK-29h"/>
-                                                    <include reference="fqf-HZ-TtM"/>
-                                                </mask>
-                                                <mask key="constraints">
-                                                    <include reference="Jmp-s2-qc8"/>
-                                                    <include reference="VAn-n0-6rP"/>
-                                                    <include reference="ElN-1F-QN1"/>
-                                                    <include reference="vFQ-sE-whP"/>
-                                                    <include reference="LyT-r9-N4Z"/>
-                                                    <include reference="thA-o9-SLu"/>
-                                                </mask>
-                                            </variation>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xc9-l7-iDV">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xc9-l7-iDV" id="gyW-g3-eXc">
@@ -568,14 +497,6 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2:30-3:30     Plenary Session I+II" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpo-Tk-gbM">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Kb-a3-yfh">
                                                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                                     <state key="normal" title="Details">
@@ -585,6 +506,14 @@
                                                         <segue destination="a0n-Yc-aY7" kind="show" id="Uwm-vk-kDT"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="1:30-2:30     Plenary Session I+II" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wpo-Tk-gbM">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="wpo-Tk-gbM" firstAttribute="top" secondItem="gyW-g3-eXc" secondAttribute="topMargin" constant="-3" id="2IU-Gg-CfD"/>
@@ -597,8 +526,8 @@
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="1bt-0O-n2w"/>
-                                                    <exclude reference="wpo-Tk-gbM"/>
                                                     <exclude reference="6Kb-a3-yfh"/>
+                                                    <exclude reference="wpo-Tk-gbM"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="bXw-IW-OnN"/>
@@ -612,8 +541,8 @@
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="1bt-0O-n2w"/>
-                                                    <include reference="wpo-Tk-gbM"/>
                                                     <include reference="6Kb-a3-yfh"/>
+                                                    <include reference="wpo-Tk-gbM"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="bXw-IW-OnN"/>
@@ -624,32 +553,6 @@
                                                     <include reference="fnq-P1-fTQ"/>
                                                 </mask>
                                             </variation>
-                                        </tableViewCellContentView>
-                                    </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="gDm-QX-OEv" detailTextLabel="gnS-3P-BSB" style="IBUITableViewCellStyleSubtitle" id="tOl-1w-k3j">
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="tOl-1w-k3j" id="wcj-N6-Ven">
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30-3:45     Coffee Break" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gDm-QX-OEv">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Northwest Labs Atrium" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="gnS-3P-BSB">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                    </variation>
-                                                </label>
-                                            </subviews>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Y7S-9V-Kjl">
@@ -665,14 +568,6 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:45-4:45     Plenary Session III+IV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adQ-3X-B8E">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xjc-mV-glY">
                                                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                                     <state key="normal" title="Details">
@@ -682,6 +577,14 @@
                                                         <segue destination="CZv-gs-nMa" kind="show" id="Z2h-nb-RP9"/>
                                                     </connections>
                                                 </button>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="2:30-3:30     Plenary Session III+IV" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="adQ-3X-B8E">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="centerY" secondItem="xjc-mV-glY" secondAttribute="centerY" constant="1.5" id="7yi-fD-qOR"/>
@@ -694,8 +597,8 @@
                                             <variation key="default">
                                                 <mask key="subviews">
                                                     <exclude reference="fWF-e8-j2Z"/>
-                                                    <exclude reference="adQ-3X-B8E"/>
                                                     <exclude reference="xjc-mV-glY"/>
+                                                    <exclude reference="adQ-3X-B8E"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="NKW-F9-G3u"/>
@@ -709,8 +612,8 @@
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
                                                     <include reference="fWF-e8-j2Z"/>
-                                                    <include reference="adQ-3X-B8E"/>
                                                     <include reference="xjc-mV-glY"/>
+                                                    <include reference="adQ-3X-B8E"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="NKW-F9-G3u"/>
@@ -723,12 +626,83 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="s3k-Yr-v57">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s3k-Yr-v57" id="J3D-7g-YSM">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Northwest Labs Atrium" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c8Q-wc-dl3">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    </variation>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30-4:30     Keynote:  Meselson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Any-e7-KbS">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2d-2w-2om">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Details">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="czy-Je-yuR" kind="show" id="RqP-Kw-Iz8"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="centerY" secondItem="Q2d-2w-2om" secondAttribute="centerY" constant="1.5" id="FsW-Ms-5N2"/>
+                                                <constraint firstItem="c8Q-wc-dl3" firstAttribute="top" secondItem="Any-e7-KbS" secondAttribute="top" constant="24" id="Gsp-Ev-kxZ"/>
+                                                <constraint firstItem="Any-e7-KbS" firstAttribute="leading" secondItem="J3D-7g-YSM" secondAttribute="leadingMargin" id="aVK-td-7mZ"/>
+                                                <constraint firstItem="Q2d-2w-2om" firstAttribute="trailing" secondItem="J3D-7g-YSM" secondAttribute="trailingMargin" id="axc-bc-GF3"/>
+                                                <constraint firstItem="c8Q-wc-dl3" firstAttribute="leading" secondItem="J3D-7g-YSM" secondAttribute="leadingMargin" constant="7" id="xY5-IH-Nx1"/>
+                                                <constraint firstItem="Any-e7-KbS" firstAttribute="top" secondItem="J3D-7g-YSM" secondAttribute="topMargin" constant="-3" id="z3J-fc-21a"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="c8Q-wc-dl3"/>
+                                                    <exclude reference="Any-e7-KbS"/>
+                                                    <exclude reference="Q2d-2w-2om"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="z3J-fc-21a"/>
+                                                    <exclude reference="aVK-td-7mZ"/>
+                                                    <exclude reference="xY5-IH-Nx1"/>
+                                                    <exclude reference="Gsp-Ev-kxZ"/>
+                                                    <exclude reference="axc-bc-GF3"/>
+                                                    <exclude reference="FsW-Ms-5N2"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="c8Q-wc-dl3"/>
+                                                    <include reference="Any-e7-KbS"/>
+                                                    <include reference="Q2d-2w-2om"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="z3J-fc-21a"/>
+                                                    <include reference="aVK-td-7mZ"/>
+                                                    <include reference="xY5-IH-Nx1"/>
+                                                    <include reference="Gsp-Ev-kxZ"/>
+                                                    <include reference="axc-bc-GF3"/>
+                                                    <include reference="FsW-Ms-5N2"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Qb7-U7-pbN" detailTextLabel="dOc-ge-lm1" style="IBUITableViewCellStyleSubtitle" id="y7E-Tm-5wX">
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y7E-Tm-5wX" id="RDO-o3-Ujx">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="4:45-6:15    Career Fair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qb7-U7-pbN">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="4:30-6:00    Career Fair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qb7-U7-pbN">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -754,7 +728,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FUn-PU-Nus" id="aKo-6U-yaK">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="6:30-10:00  Boston and Harvard Tours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o3M-qU-T7r">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="6:00-10:00  Boston and Harvard Tours" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="o3M-qU-T7r">
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>

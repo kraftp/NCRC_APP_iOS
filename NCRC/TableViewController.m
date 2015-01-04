@@ -34,7 +34,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     // Return the number of rows in the section.
     if (section == 0)
-        return 11;
+        return 10;
     if (section == 1)
         return 14;
     return 10;
