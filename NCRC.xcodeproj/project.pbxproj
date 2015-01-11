@@ -49,6 +49,8 @@
 		D09D446719D67BA200AA73F8 /* ic_action_paste.png in Resources */ = {isa = PBXBuildFile; fileRef = D09D445D19D67BA200AA73F8 /* ic_action_paste.png */; };
 		D09D446819D67BA200AA73F8 /* ic_action_person.png in Resources */ = {isa = PBXBuildFile; fileRef = D09D445E19D67BA200AA73F8 /* ic_action_person.png */; };
 		D09D446C19D67BA200AA73F8 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D09D446219D67BA200AA73F8 /* logo.png */; };
+		D0D2A12C1A632F8A002211EB /* FloorPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = D0D2A12B1A632F8A002211EB /* FloorPlan.m */; };
+		D0D2A12E1A633071002211EB /* northwestbasement.png in Resources */ = {isa = PBXBuildFile; fileRef = D0D2A12D1A633071002211EB /* northwestbasement.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -166,6 +168,9 @@
 		D09D446019D67BA200AA73F8 /* ic_action_share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_action_share.png; sourceTree = "<group>"; };
 		D09D446119D67BA200AA73F8 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		D09D446219D67BA200AA73F8 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		D0D2A12A1A632F8A002211EB /* FloorPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorPlan.h; sourceTree = "<group>"; };
+		D0D2A12B1A632F8A002211EB /* FloorPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorPlan.m; sourceTree = "<group>"; };
+		D0D2A12D1A633071002211EB /* northwestbasement.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = northwestbasement.png; path = ../../northwestbasement.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +223,8 @@
 				D0763DD51A26C9170015064B /* TableViewController.h */,
 				D0763DD61A26C9170015064B /* TableViewController.m */,
 				391FDF9F19E352C600C5FD18 /* Main.storyboard */,
+				D0D2A12A1A632F8A002211EB /* FloorPlan.h */,
+				D0D2A12B1A632F8A002211EB /* FloorPlan.m */,
 				D01B3D5C1A58F70F0062AFCF /* plenary_1.h */,
 				D01B3D5D1A58F70F0062AFCF /* plenary_1.m */,
 				D01B3D5F1A58F71E0062AFCF /* plenary_2.h */,
@@ -256,6 +263,7 @@
 		391FDF9519E352C600C5FD18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D0D2A12D1A633071002211EB /* northwestbasement.png */,
 				D028B4E91A6328F0003F924B /* layout-sidebar-right.png */,
 				D028B4E71A6328E8003F924B /* arrow-up.png */,
 				391FDF9619E352C600C5FD18 /* Info.plist */,
@@ -470,6 +478,7 @@
 				391FDFA319E352C600C5FD18 /* Images.xcassets in Resources */,
 				D07C88B11A07542600C5AAE1 /* browser-2.png in Resources */,
 				D07C88C11A07542600C5AAE1 /* user-4.png in Resources */,
+				D0D2A12E1A633071002211EB /* northwestbasement.png in Resources */,
 				D07C88761A074FB600C5AAE1 /* user-4.svg in Resources */,
 				D07C88971A07537200C5AAE1 /* map.svg in Resources */,
 			);
@@ -492,6 +501,7 @@
 				D04F8A4E1A297BD50088795F /* NCRCMap.m in Sources */,
 				D01B3D5E1A58F70F0062AFCF /* plenary_1.m in Sources */,
 				D00E5CFA1A2AC972006A3FDE /* inno_challenge.m in Sources */,
+				D0D2A12C1A632F8A002211EB /* FloorPlan.m in Sources */,
 				391FDF9E19E352C600C5FD18 /* ViewController.m in Sources */,
 				D03DCD161A565B2A001D058E /* panels_workshops_1.m in Sources */,
 				D041A54C1A2AE7B400DC1A57 /* keynote_4_webview.m in Sources */,

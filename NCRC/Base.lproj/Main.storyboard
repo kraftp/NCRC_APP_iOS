@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
@@ -201,6 +202,9 @@
                                         <include reference="cWp-28-4IX"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <action selector="openUpdates:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vTS-1B-nV7"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWS-NV-goO">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -222,6 +226,9 @@
                                         <include reference="ClW-ou-auQ"/>
                                     </mask>
                                 </variation>
+                                <connections>
+                                    <segue destination="5oN-yn-5Jh" kind="show" id="13T-GL-RVI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -259,21 +266,21 @@
                                 <exclude reference="uWS-NV-goO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="HTm-ci-S0N"/>
-                                <exclude reference="g85-fL-pHZ"/>
-                                <exclude reference="kUi-WO-gl4"/>
-                                <exclude reference="8rT-F5-6zd"/>
-                                <exclude reference="bSv-FQ-Rz1"/>
-                                <exclude reference="JQL-T3-X24"/>
-                                <exclude reference="QK3-Ga-qpz"/>
-                                <exclude reference="gwn-1X-CfI"/>
-                                <exclude reference="pch-kU-3jW"/>
                                 <exclude reference="SCs-c8-fVW"/>
                                 <exclude reference="WOu-ox-pq0"/>
                                 <exclude reference="ndd-ON-mql"/>
+                                <exclude reference="JQL-T3-X24"/>
+                                <exclude reference="QK3-Ga-qpz"/>
                                 <exclude reference="RgG-tr-NVK"/>
+                                <exclude reference="8rT-F5-6zd"/>
+                                <exclude reference="bSv-FQ-Rz1"/>
+                                <exclude reference="gwn-1X-CfI"/>
+                                <exclude reference="pch-kU-3jW"/>
                                 <exclude reference="XI3-Ax-sNb"/>
                                 <exclude reference="nb8-A4-BPr"/>
+                                <exclude reference="HTm-ci-S0N"/>
+                                <exclude reference="g85-fL-pHZ"/>
+                                <exclude reference="kUi-WO-gl4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -287,21 +294,21 @@
                                 <include reference="uWS-NV-goO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="HTm-ci-S0N"/>
-                                <include reference="g85-fL-pHZ"/>
-                                <include reference="kUi-WO-gl4"/>
-                                <include reference="8rT-F5-6zd"/>
-                                <include reference="bSv-FQ-Rz1"/>
-                                <include reference="JQL-T3-X24"/>
-                                <include reference="QK3-Ga-qpz"/>
-                                <include reference="gwn-1X-CfI"/>
-                                <include reference="pch-kU-3jW"/>
                                 <include reference="SCs-c8-fVW"/>
                                 <include reference="WOu-ox-pq0"/>
                                 <include reference="ndd-ON-mql"/>
+                                <include reference="JQL-T3-X24"/>
+                                <include reference="QK3-Ga-qpz"/>
                                 <include reference="RgG-tr-NVK"/>
+                                <include reference="8rT-F5-6zd"/>
+                                <include reference="bSv-FQ-Rz1"/>
+                                <include reference="gwn-1X-CfI"/>
+                                <include reference="pch-kU-3jW"/>
                                 <include reference="XI3-Ax-sNb"/>
                                 <include reference="nb8-A4-BPr"/>
+                                <include reference="HTm-ci-S0N"/>
+                                <include reference="g85-fL-pHZ"/>
+                                <include reference="kUi-WO-gl4"/>
                             </mask>
                         </variation>
                     </view>
@@ -2302,6 +2309,58 @@
             </objects>
             <point key="canvasLocation" x="3910.5" y="661"/>
         </scene>
+        <!--Northwest Labs Floor Plan-->
+        <scene sceneID="THe-EC-cv5">
+            <objects>
+                <viewController id="5oN-yn-5Jh" customClass="FloorPlan" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="bPE-eO-3Z8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q8h-8B-5Wf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AhU-Vj-5mF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="northwestbasement.png" translatesAutoresizingMaskIntoConstraints="NO" id="KEZ-Uc-tlc">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="KEZ-Uc-tlc" secondAttribute="width" id="1om-Td-MAY"/>
+                            <constraint firstAttribute="centerX" secondItem="KEZ-Uc-tlc" secondAttribute="centerX" id="CEY-UV-GEL"/>
+                            <constraint firstItem="KEZ-Uc-tlc" firstAttribute="top" secondItem="bPE-eO-3Z8" secondAttribute="bottom" id="KeF-Ak-Reg"/>
+                            <constraint firstAttribute="width" secondItem="KEZ-Uc-tlc" secondAttribute="height" multiplier="1:1" id="o3M-HZ-AMR"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="KEZ-Uc-tlc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1om-Td-MAY"/>
+                                <exclude reference="CEY-UV-GEL"/>
+                                <exclude reference="KeF-Ak-Reg"/>
+                                <exclude reference="o3M-HZ-AMR"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="KEZ-Uc-tlc"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1om-Td-MAY"/>
+                                <include reference="CEY-UV-GEL"/>
+                                <include reference="KeF-Ak-Reg"/>
+                                <include reference="o3M-HZ-AMR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Northwest Labs Floor Plan" id="0N4-FR-gka"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ehB-3g-1V0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="706.5" y="648"/>
+        </scene>
     </scenes>
     <resources>
         <image name="arrow-up.png" width="64" height="64"/>
@@ -2309,6 +2368,7 @@
         <image name="browser-2.png" width="64" height="64"/>
         <image name="layout-sidebar-right.png" width="64" height="64"/>
         <image name="map.png" width="64" height="64"/>
+        <image name="northwestbasement.png" width="856" height="888"/>
         <image name="timeline.png" width="64" height="64"/>
         <image name="user-4.png" width="64" height="64"/>
     </resources>

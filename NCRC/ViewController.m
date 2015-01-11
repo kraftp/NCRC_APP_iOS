@@ -16,6 +16,9 @@
 - (IBAction)openWebsite:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.ncrc.hcura.org"]];
 }
+- (IBAction)openUpdates:(id)sender {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.ncrc.hcura.org/updates"]];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
