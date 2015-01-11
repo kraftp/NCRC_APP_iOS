@@ -181,6 +181,48 @@
                                     <segue destination="xin-fb-1ge" kind="show" id="A2n-1w-JOa"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZdZ-oF-woU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="cWp-28-4IX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title=" Updates" image="arrow-up.png">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cWp-28-4IX"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="cWp-28-4IX"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uWS-NV-goO">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="ClW-ou-auQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="  Floor" image="layout-sidebar-right.png">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="ClW-ou-auQ"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="ClW-ou-auQ"/>
+                                    </mask>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -197,10 +239,14 @@
                             <constraint firstAttribute="trailingMargin" secondItem="Im0-dl-PzL" secondAttribute="trailing" constant="-16" id="WOu-ox-pq0">
                                 <variation key="widthClass=compact" constant="8"/>
                             </constraint>
+                            <constraint firstItem="uWS-NV-goO" firstAttribute="trailing" secondItem="Im0-dl-PzL" secondAttribute="trailing" id="XI3-Ax-sNb"/>
                             <constraint firstItem="VpB-vv-eyE" firstAttribute="top" secondItem="L7j-wh-0A2" secondAttribute="top" constant="127" id="bSv-FQ-Rz1"/>
                             <constraint firstAttribute="width" secondItem="L7j-wh-0A2" secondAttribute="width" id="g85-fL-pHZ"/>
+                            <constraint firstItem="ZdZ-oF-woU" firstAttribute="leading" secondItem="SnJ-WA-ow3" secondAttribute="leading" id="gwn-1X-CfI"/>
                             <constraint firstItem="L7j-wh-0A2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="kUi-WO-gl4"/>
+                            <constraint firstItem="uWS-NV-goO" firstAttribute="baseline" secondItem="ZdZ-oF-woU" secondAttribute="baseline" id="nb8-A4-BPr"/>
                             <constraint firstItem="Im0-dl-PzL" firstAttribute="top" secondItem="L7j-wh-0A2" secondAttribute="top" constant="127" id="ndd-ON-mql"/>
+                            <constraint firstItem="ZdZ-oF-woU" firstAttribute="top" secondItem="SnJ-WA-ow3" secondAttribute="bottom" constant="8" symbolic="YES" id="pch-kU-3jW"/>
                         </constraints>
                         <variation key="default">
                             <mask key="subviews">
@@ -209,19 +255,25 @@
                                 <exclude reference="Im0-dl-PzL"/>
                                 <exclude reference="L7j-wh-0A2"/>
                                 <exclude reference="SnJ-WA-ow3"/>
+                                <exclude reference="ZdZ-oF-woU"/>
+                                <exclude reference="uWS-NV-goO"/>
                             </mask>
                             <mask key="constraints">
-                                <exclude reference="SCs-c8-fVW"/>
-                                <exclude reference="WOu-ox-pq0"/>
-                                <exclude reference="ndd-ON-mql"/>
-                                <exclude reference="JQL-T3-X24"/>
-                                <exclude reference="QK3-Ga-qpz"/>
-                                <exclude reference="RgG-tr-NVK"/>
-                                <exclude reference="8rT-F5-6zd"/>
-                                <exclude reference="bSv-FQ-Rz1"/>
                                 <exclude reference="HTm-ci-S0N"/>
                                 <exclude reference="g85-fL-pHZ"/>
                                 <exclude reference="kUi-WO-gl4"/>
+                                <exclude reference="8rT-F5-6zd"/>
+                                <exclude reference="bSv-FQ-Rz1"/>
+                                <exclude reference="JQL-T3-X24"/>
+                                <exclude reference="QK3-Ga-qpz"/>
+                                <exclude reference="gwn-1X-CfI"/>
+                                <exclude reference="pch-kU-3jW"/>
+                                <exclude reference="SCs-c8-fVW"/>
+                                <exclude reference="WOu-ox-pq0"/>
+                                <exclude reference="ndd-ON-mql"/>
+                                <exclude reference="RgG-tr-NVK"/>
+                                <exclude reference="XI3-Ax-sNb"/>
+                                <exclude reference="nb8-A4-BPr"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -231,19 +283,25 @@
                                 <include reference="Im0-dl-PzL"/>
                                 <include reference="L7j-wh-0A2"/>
                                 <include reference="SnJ-WA-ow3"/>
+                                <include reference="ZdZ-oF-woU"/>
+                                <include reference="uWS-NV-goO"/>
                             </mask>
                             <mask key="constraints">
-                                <include reference="SCs-c8-fVW"/>
-                                <include reference="WOu-ox-pq0"/>
-                                <include reference="ndd-ON-mql"/>
-                                <include reference="JQL-T3-X24"/>
-                                <include reference="QK3-Ga-qpz"/>
-                                <include reference="RgG-tr-NVK"/>
-                                <include reference="8rT-F5-6zd"/>
-                                <include reference="bSv-FQ-Rz1"/>
                                 <include reference="HTm-ci-S0N"/>
                                 <include reference="g85-fL-pHZ"/>
                                 <include reference="kUi-WO-gl4"/>
+                                <include reference="8rT-F5-6zd"/>
+                                <include reference="bSv-FQ-Rz1"/>
+                                <include reference="JQL-T3-X24"/>
+                                <include reference="QK3-Ga-qpz"/>
+                                <include reference="gwn-1X-CfI"/>
+                                <include reference="pch-kU-3jW"/>
+                                <include reference="SCs-c8-fVW"/>
+                                <include reference="WOu-ox-pq0"/>
+                                <include reference="ndd-ON-mql"/>
+                                <include reference="RgG-tr-NVK"/>
+                                <include reference="XI3-Ax-sNb"/>
+                                <include reference="nb8-A4-BPr"/>
                             </mask>
                         </variation>
                     </view>
@@ -2246,8 +2304,10 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow-up.png" width="64" height="64"/>
         <image name="banner.png" width="716" height="144"/>
         <image name="browser-2.png" width="64" height="64"/>
+        <image name="layout-sidebar-right.png" width="64" height="64"/>
         <image name="map.png" width="64" height="64"/>
         <image name="timeline.png" width="64" height="64"/>
         <image name="user-4.png" width="64" height="64"/>
