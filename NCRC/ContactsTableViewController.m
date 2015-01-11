@@ -31,9 +31,19 @@
 }
 
 - (IBAction)HUPD_call:(id)sender {
-    //[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel:%617495121"]];
-        //[[UIApplication sharedApplication] openURL:[NSURL URLWithString: @"http://www.ncrc.hcura.org"]];
     NSURL *phoneNumberURL = [NSURL URLWithString:@"tel:617495121"];
+    [[UIApplication sharedApplication] openURL:phoneNumberURL];
+}
+- (IBAction)Programming_call:(id)sender {
+    NSURL *phoneNumberURL = [NSURL URLWithString:@"tel:8576001627"];
+    [[UIApplication sharedApplication] openURL:phoneNumberURL];
+}
+- (IBAction)Finance_call:(id)sender {
+    NSURL *phoneNumberURL = [NSURL URLWithString:@"tel:6176829892"];
+    [[UIApplication sharedApplication] openURL:phoneNumberURL];
+}
+- (IBAction)Pres_call:(id)sender {
+    NSURL *phoneNumberURL = [NSURL URLWithString:@"tel:6176579782"];
     [[UIApplication sharedApplication] openURL:phoneNumberURL];
 }
 
@@ -48,7 +58,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 //#warning Incomplete method implementation.
     // Return the number of rows in the section.
-    return 3;
+    return 4;
 }
 
 

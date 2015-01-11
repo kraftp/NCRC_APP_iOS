@@ -57,16 +57,134 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="D7l-NZ-1yl">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="9HY-ch-7pf">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="D7l-NZ-1yl" id="u8J-rH-B3y">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9HY-ch-7pf" id="5Xf-F5-MQf">
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEN-Vo-5Jg">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Programming Committee:  (857) 600-1627">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="HUPD_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="OP2-A2-S3M"/>
+                                                        <action selector="Programming_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="2Is-P6-3eL"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="trailingMargin" secondItem="vEN-Vo-5Jg" secondAttribute="trailing" constant="7" id="JCz-uO-94v"/>
+                                                <constraint firstItem="vEN-Vo-5Jg" firstAttribute="leading" secondItem="5Xf-F5-MQf" secondAttribute="leading" id="NvM-bI-bPG"/>
+                                                <constraint firstItem="vEN-Vo-5Jg" firstAttribute="top" secondItem="5Xf-F5-MQf" secondAttribute="topMargin" constant="-1" id="klQ-W6-dKa"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="vEN-Vo-5Jg"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="JCz-uO-94v"/>
+                                                    <exclude reference="NvM-bI-bPG"/>
+                                                    <exclude reference="klQ-W6-dKa"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="vEN-Vo-5Jg"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="JCz-uO-94v"/>
+                                                    <include reference="NvM-bI-bPG"/>
+                                                    <include reference="klQ-W6-dKa"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="az8-5c-R3r">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="y5R-HD-1WW">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="az8-5c-R3r" id="WuJ-d1-FiH">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y5R-HD-1WW" id="qVR-NC-aVQ">
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Li1-QY-DSS">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Finance Committee: (617) 682-9892">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="Finance_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="uOk-Bg-5Wq"/>
+                                                        <action selector="HUPD_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="rqG-sB-zRI"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="Li1-QY-DSS" firstAttribute="leading" secondItem="qVR-NC-aVQ" secondAttribute="leading" id="4qc-QX-rhX"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Li1-QY-DSS" secondAttribute="trailing" constant="9" id="aqq-Mz-m1y"/>
+                                                <constraint firstItem="Li1-QY-DSS" firstAttribute="top" secondItem="qVR-NC-aVQ" secondAttribute="topMargin" id="b0A-hm-AMl"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="Li1-QY-DSS"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="4qc-QX-rhX"/>
+                                                    <exclude reference="aqq-Mz-m1y"/>
+                                                    <exclude reference="b0A-hm-AMl"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="Li1-QY-DSS"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="4qc-QX-rhX"/>
+                                                    <include reference="aqq-Mz-m1y"/>
+                                                    <include reference="b0A-hm-AMl"/>
+                                                </mask>
+                                            </variation>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="wt7-Zw-dX2">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wt7-Zw-dX2" id="lW4-a3-we7">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6zq-7d-ak4">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="HCURA President: (617) 657-9782">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="Finance_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="jCw-S0-8z3"/>
+                                                        <action selector="HUPD_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="dqf-ss-pet"/>
+                                                        <action selector="Pres_call:" destination="xin-fb-1ge" eventType="touchUpInside" id="JrV-1K-qrG"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="6zq-7d-ak4" firstAttribute="leading" secondItem="lW4-a3-we7" secondAttribute="leading" id="DkG-ZJ-dNo"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="6zq-7d-ak4" secondAttribute="trailing" constant="10" id="SXG-La-Or8"/>
+                                                <constraint firstItem="6zq-7d-ak4" firstAttribute="top" secondItem="lW4-a3-we7" secondAttribute="topMargin" constant="1" id="jad-4q-iG2"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="6zq-7d-ak4"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="DkG-ZJ-dNo"/>
+                                                    <exclude reference="SXG-La-Or8"/>
+                                                    <exclude reference="jad-4q-iG2"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="6zq-7d-ak4"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="DkG-ZJ-dNo"/>
+                                                    <include reference="SXG-La-Or8"/>
+                                                    <include reference="jad-4q-iG2"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </cells>
@@ -81,7 +199,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="plU-l3-y7e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1354.5" y="648"/>
+            <point key="canvasLocation" x="1354.5" y="634"/>
         </scene>
         <!--Map-->
         <scene sceneID="pGa-uA-RIt">
