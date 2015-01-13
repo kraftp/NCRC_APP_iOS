@@ -21,6 +21,7 @@
 		D00E73201A650959006CB5AB /* map@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00E731F1A650959006CB5AB /* map@2x.png */; };
 		D00E73221A65095F006CB5AB /* timeline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00E73211A65095F006CB5AB /* timeline@2x.png */; };
 		D00E73241A650964006CB5AB /* user-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D00E73231A650964006CB5AB /* user-4@2x.png */; };
+		D014A53F1A65ACCF009FC09E /* banner@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D014A53E1A65ACCF009FC09E /* banner@2x.png */; };
 		D01B3D5E1A58F70F0062AFCF /* plenary_1.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B3D5D1A58F70F0062AFCF /* plenary_1.m */; };
 		D01B3D611A58F71E0062AFCF /* plenary_2.m in Sources */ = {isa = PBXBuildFile; fileRef = D01B3D601A58F71E0062AFCF /* plenary_2.m */; };
 		D02B5C6C1A28EB4800F00C85 /* ContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02B5C6B1A28EB4800F00C85 /* ContactsTableViewController.m */; };
@@ -78,6 +79,7 @@
 		D00E731F1A650959006CB5AB /* map@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "map@2x.png"; sourceTree = "<group>"; };
 		D00E73211A65095F006CB5AB /* timeline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timeline@2x.png"; sourceTree = "<group>"; };
 		D00E73231A650964006CB5AB /* user-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "user-4@2x.png"; sourceTree = "<group>"; };
+		D014A53E1A65ACCF009FC09E /* banner@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "banner@2x.png"; sourceTree = "<group>"; };
 		D01B3D5C1A58F70F0062AFCF /* plenary_1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plenary_1.h; sourceTree = "<group>"; };
 		D01B3D5D1A58F70F0062AFCF /* plenary_1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = plenary_1.m; sourceTree = "<group>"; };
 		D01B3D5F1A58F71E0062AFCF /* plenary_2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = plenary_2.h; sourceTree = "<group>"; };
@@ -236,6 +238,7 @@
 		D07C889C1A07542600C5AAE1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				D014A53E1A65ACCF009FC09E /* banner@2x.png */,
 				D00E73231A650964006CB5AB /* user-4@2x.png */,
 				D00E73211A65095F006CB5AB /* timeline@2x.png */,
 				D00E731F1A650959006CB5AB /* map@2x.png */,
@@ -334,6 +337,7 @@
 			files = (
 				D0BC0CCE1A64B509001B79FD /* northwestbasement.png in Resources */,
 				D00E73241A650964006CB5AB /* user-4@2x.png in Resources */,
+				D014A53F1A65ACCF009FC09E /* banner@2x.png in Resources */,
 				D00E731A1A650945006CB5AB /* arrow-up@2x.png in Resources */,
 				D00E731E1A650952006CB5AB /* layout-sidebar-right@2x.png in Resources */,
 				D00E73221A65095F006CB5AB /* timeline@2x.png in Resources */,
