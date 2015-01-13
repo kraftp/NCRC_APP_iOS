@@ -448,7 +448,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <sections>
-                            <tableViewSection headerTitle="Thursday" id="qWn-ZX-c2w">
+                            <tableViewSection headerTitle="Thursday, January 22nd" id="qWn-ZX-c2w">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="zIp-sS-dnZ" detailTextLabel="jYd-Gf-Xjj" style="IBUITableViewCellStyleSubtitle" id="94p-zE-Zra">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -802,14 +802,6 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="s3k-Yr-v57" id="J3D-7g-YSM">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30-4:30     Keynote:  Meselson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Any-e7-KbS">
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                    </variation>
-                                                </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q2d-2w-2om">
                                                     <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                                     <state key="normal" title="Details">
@@ -828,6 +820,14 @@
                                                         <rect key="frame" x="15" y="29" width="119" height="14"/>
                                                     </variation>
                                                 </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="3:30-4:30     Keynote:  Meselson" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Any-e7-KbS">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                    <variation key="widthClass=compact">
+                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    </variation>
+                                                </label>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="centerY" secondItem="Q2d-2w-2om" secondAttribute="centerY" constant="1.5" id="FsW-Ms-5N2"/>
@@ -837,9 +837,9 @@
                                             </constraints>
                                             <variation key="default">
                                                 <mask key="subviews">
-                                                    <exclude reference="Any-e7-KbS"/>
                                                     <exclude reference="Q2d-2w-2om"/>
                                                     <exclude reference="c8Q-wc-dl3"/>
+                                                    <exclude reference="Any-e7-KbS"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <exclude reference="aVK-td-7mZ"/>
@@ -850,9 +850,9 @@
                                             </variation>
                                             <variation key="widthClass=compact">
                                                 <mask key="subviews">
-                                                    <include reference="Any-e7-KbS"/>
                                                     <include reference="Q2d-2w-2om"/>
                                                     <include reference="c8Q-wc-dl3"/>
+                                                    <include reference="Any-e7-KbS"/>
                                                 </mask>
                                                 <mask key="constraints">
                                                     <include reference="aVK-td-7mZ"/>
@@ -863,13 +863,12 @@
                                             </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
-                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="Qb7-U7-pbN" detailTextLabel="dOc-ge-lm1" style="IBUITableViewCellStyleSubtitle" id="y7E-Tm-5wX">
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Zxe-HW-Trg">
                                         <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="y7E-Tm-5wX" id="RDO-o3-Ujx">
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Zxe-HW-Trg" id="0sX-1Q-yXK">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="4:35-6:20    Career Fair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qb7-U7-pbN">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="4:35-6:20     Career Fair" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CPb-vW-X3c">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
@@ -877,16 +876,57 @@
                                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                     </variation>
                                                 </label>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Northwest Labs Atrium, B101, B103" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dOc-ge-lm1">
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Northwest Labs B101, B103" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8v1-iy-apo">
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                     <nil key="highlightedColor"/>
-                                                    <variation key="widthClass=compact">
+                                                    <variation key="widthClass=compact" fixedFrame="YES">
                                                         <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                        <rect key="frame" x="15" y="29" width="145" height="14"/>
                                                     </variation>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="65H-Gk-ulg">
+                                                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                                    <state key="normal" title="Details">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <segue destination="upx-Ky-9C0" kind="show" id="wOy-yH-cwc"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="65H-Gk-ulg" firstAttribute="trailing" secondItem="0sX-1Q-yXK" secondAttribute="trailingMargin" id="Fj2-7d-118"/>
+                                                <constraint firstItem="CPb-vW-X3c" firstAttribute="leading" secondItem="0sX-1Q-yXK" secondAttribute="leadingMargin" id="KY9-Aj-awq"/>
+                                                <constraint firstItem="CPb-vW-X3c" firstAttribute="top" secondItem="0sX-1Q-yXK" secondAttribute="topMargin" constant="-3" id="eVr-Bg-RJZ"/>
+                                                <constraint firstAttribute="centerY" secondItem="65H-Gk-ulg" secondAttribute="centerY" constant="1.5" id="gG2-By-o43"/>
+                                            </constraints>
+                                            <variation key="default">
+                                                <mask key="subviews">
+                                                    <exclude reference="CPb-vW-X3c"/>
+                                                    <exclude reference="8v1-iy-apo"/>
+                                                    <exclude reference="65H-Gk-ulg"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <exclude reference="KY9-Aj-awq"/>
+                                                    <exclude reference="eVr-Bg-RJZ"/>
+                                                    <exclude reference="gG2-By-o43"/>
+                                                    <exclude reference="Fj2-7d-118"/>
+                                                </mask>
+                                            </variation>
+                                            <variation key="widthClass=compact">
+                                                <mask key="subviews">
+                                                    <include reference="CPb-vW-X3c"/>
+                                                    <include reference="8v1-iy-apo"/>
+                                                    <include reference="65H-Gk-ulg"/>
+                                                </mask>
+                                                <mask key="constraints">
+                                                    <include reference="KY9-Aj-awq"/>
+                                                    <include reference="eVr-Bg-RJZ"/>
+                                                    <include reference="gG2-By-o43"/>
+                                                    <include reference="Fj2-7d-118"/>
+                                                </mask>
+                                            </variation>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="o3M-qU-T7r" detailTextLabel="iQj-bM-cAf" style="IBUITableViewCellStyleSubtitle" id="FUn-PU-Nus">
@@ -917,7 +957,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Friday" id="yIf-Xe-T3L">
+                            <tableViewSection headerTitle="Friday, January 23rd" id="yIf-Xe-T3L">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="fir-df-3ah" detailTextLabel="wwS-p3-oNS" style="IBUITableViewCellStyleSubtitle" id="3js-xy-Ufa">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -1590,7 +1630,7 @@
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
-                            <tableViewSection headerTitle="Saturday" id="mrO-87-ia9">
+                            <tableViewSection headerTitle="Saturday, January 24th" id="mrO-87-ia9">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="rTy-oR-fL0" detailTextLabel="ekT-Vp-xZU" style="IBUITableViewCellStyleSubtitle" id="CCg-oT-bur">
                                         <autoresizingMask key="autoresizingMask"/>
@@ -2481,6 +2521,47 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ehB-3g-1V0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="706.5" y="648"/>
+        </scene>
+        <!--Career Fair-->
+        <scene sceneID="ThJ-xn-VMy">
+            <objects>
+                <viewController id="upx-Ky-9C0" customClass="CareerFair" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qzS-2c-T1S"/>
+                        <viewControllerLayoutGuide type="bottom" id="TMJ-fV-0d6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VHZ-yt-pnn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Fu-hy-PG8">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="64" width="400" height="600"/>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="7Fu-hy-PG8"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="7Fu-hy-PG8"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" title="Career Fair" id="SvI-Pj-8E7"/>
+                    <connections>
+                        <outlet property="viewWeb" destination="7Fu-hy-PG8" id="TdJ-jN-iHs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfl-23-alh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2007" y="1296"/>
         </scene>
     </scenes>
     <resources>
