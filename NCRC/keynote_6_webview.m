@@ -22,8 +22,10 @@
                               metrics:nil
                               views:NSDictionaryOfVariableBindings(_viewWeb)]];
     //create the string
-    NSMutableString *html = [NSMutableString stringWithString: @"<html><p>Donald H. Pfister is Asa Gray Professor of Systematic Botany at Harvard University. His research is in the area of fungal biology in which he studies taxonomy, life histories, and systematics. He considers himself above all to study natural history. He also has done research on topics related to documentation of collections and collectors of natural history specimens.</p><p> A long time faculty member in the department of Organismic and Evolutionary Biology, he has taught a variety of courses most recently the Biology of Fungi, Trees, forests and climate change, and Plants and human affairs. At Harvard he has served as a House Master, Dean of Harvard Summer School and most recently Interim Dean of Harvard College. His undergraduate work was at Miami University in Oxford, Ohio and his Ph.D. is from Cornell University.</p></html>"];
-    [_viewWeb loadHTMLString:[html description] baseURL:nil];
+    NSMutableString *html = [NSMutableString stringWithString: @"<html><p><img src=\"keynotepics/pfister.jpg\" align=\"left\" width=\"300\" hspace=\"20\" height=\"400\"/>Donald H. Pfister is Asa Gray Professor of Systematic Botany at Harvard University. His research is in the area of fungal biology in which he studies taxonomy, life histories, and systematics. He considers himself above all to study natural history. He also has done research on topics related to documentation of collections and collectors of natural history specimens.</p><p> A long time faculty member in the department of Organismic and Evolutionary Biology, he has taught a variety of courses most recently the Biology of Fungi, Trees, forests and climate change, and Plants and human affairs. At Harvard he has served as a House Master, Dean of Harvard Summer School and most recently Interim Dean of Harvard College. His undergraduate work was at Miami University in Oxford, Ohio and his Ph.D. is from Cornell University.</p></html>"];
+    NSString *path = [[NSBundle mainBundle] bundlePath];
+    NSURL *url = [NSURL fileURLWithPath:path];
+    [_viewWeb loadHTMLString:[html description] baseURL:url];
     _viewWeb.delegate = self;
 }
 
